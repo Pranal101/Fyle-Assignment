@@ -9,3 +9,14 @@ app.use(express.static("public"));
 
 
 mongoose.connect("mongodb+srv://pranalgupta:pranal@cluster0.t7nfg19.mongodb.net/libraryDB",{useNewUrlParser:true})
+
+let port = process.env.PORT;
+if (port == null || port == "") {
+  port = 8000;
+}
+
+
+app.listen(port,function()
+{
+    console.log("Server started successfully")
+})
