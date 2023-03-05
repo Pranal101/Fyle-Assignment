@@ -1,0 +1,101 @@
+p {
+  font-size: 25px;
+}
+
+body {
+  background: #e0e0e0;
+}
+.head_text {
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+}
+form {
+  display: flex;
+  margin-bottom: 20px;
+}
+.search-box {
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-box form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type="text"] {
+  width: 300px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  background-color: #f1f1f1;
+  font-size: 16px;
+  color: #333;
+}
+
+button {
+  margin-left: 10px;
+  background-color: black; /* Set background color */
+  border: none; /* Remove border */
+  color: white; /* Set text color */
+  padding: 10px 16px; /* Add padding */
+  text-align: center; /* Center text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Display as inline-block */
+  font-size: 16px; /* Set font size */
+  border-radius: 20px; /* Add border radius */
+  -webkit-transition-duration: 0.4s; /* Set transition duration for hover effect */
+  transition-duration: 0.4s;
+  cursor: pointer; /* Add cursor pointer */
+}
+
+button:hover {
+  background-color: grey; /* Change background color on hover */
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: default;
+}
+
+ul {
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  font-family: "Lato", sans-serif;
+  justify-content: center;
+  margin: 10px 0;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+li:hover {
+  text-decoration: underline;
+}
+
+button[type="button"] {
+  margin-right: 10px;
+}
+.App {
+  justify-content: center;
+  text-align: center;
+}
+.App header h1 {
+  text-align: left;
+}
+
+header {
+  align-items: lef;
+  background-color: #bbbbbb;
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
